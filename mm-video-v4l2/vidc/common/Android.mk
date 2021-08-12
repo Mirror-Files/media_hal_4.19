@@ -25,10 +25,6 @@ endif
 
 libmm-vidc-inc      := $(LOCAL_PATH)/inc
 libmm-vidc-inc      += $(LIBION_HEADER_PATHS)
-libmm-vidc-inc      += $(call project-path-for,qcom-media)/mm-core/inc
-libmm-vidc-inc      += $(call project-path-for,qcom-media)/mm-video-v4l2/vidc/vdec/inc
-libmm-vidc-inc      += $(call project-path-for,qcom-media)/mm-video-v4l2/vidc/venc/inc
-libmm-vidc-inc      += $(call project-path-for,qcom-media)/libc2dcolorconvert
 libmm-vidc-inc      += $(TOP)/hardware/qcom/media/mm-core/inc
 libmm-vidc-inc      += $(TOP)/hardware/qcom/media/mm-video-v4l2/vidc/vdec/inc
 libmm-vidc-inc      += $(TOP)/hardware/qcom/media/mm-video-v4l2/vidc/venc/inc
